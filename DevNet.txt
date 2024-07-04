@@ -1,0 +1,737 @@
+
+
+################ LINUX #####################
+
+pwd 
+
+ls 
+
+man ls
+
+ls -l 
+
+mkdir dir1 
+
+cd dir1 
+
+cd .. 
+
+mv file1.txt dir1
+
+mv file2 dir1/mybash.txt
+
+cp file1.txt coffee.txt 
+
+cat coffee.txt 
+
+cat coffee.txt mybash.txt 
+
+ls -l coffee.txt 
+
+nano coffee.txt 
+
+rm file1.txt
+rm file2.txt
+
+rm -i mybash.txt coffee.txt 
+
+rmdir dir1 
+
+env 
+
+sudo yum install tree 
+
+which tree 
+
+
+
+pip install flask
+
+
+
+C:\Users\mohanad.alshawi\environment\gman37\Scripts
+(gman37) λ grep network TEST
+I am a network engineer
+
+
+
+################### Git ########################
+
+git config --global user.name "Mohanad Alshawi"
+
+git config --global user.email "alshawimhnd@gmial.com"
+
+git config --list
+
+git config user.name 
+
+man git 
+
+git help config 
+
+
+
+cd Desktop/cafe_recipes
+
+git init 
+
+cd .git 
+
+######################
+
+github / gitLab / bitbucket
+
+######################
+
+
+git status 
+
+ 
+================================= 
+
+
+C:\Users\mohanad.alshawi
+λ git config --global user.name "MHND"
+
+C:\Users\mohanad.alshawi
+λ git config --global user.email "alshawimhnd@gmail.com"
+
+C:\Users\mohanad.alshawi
+λ git config  --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.interactive=true
+color.ui=auto
+help.format=html
+diff.astextplain.textconv=astextplain
+rebase.autosquash=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=helper-selector
+user.name=MHND
+user.email=alshawimhnd@gmail.com
+
+
+
+
+
+C:\Users\mohanad.alshawi\Downloads\PortableGit
+λ git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint:   git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint:   git branch -m <name>
+Initialized empty Git repository in C:/Users/mohanad.alshawi/Downloads/PortableGit/.git/
+
+C:\Users\mohanad.alshawi\Downloads\PortableGit (master)
+λ
+C:\Users\mohanad.alshawi\Downloads\PortableGit (master)
+λ
+C:\Users\mohanad.alshawi\Downloads\PortableGit (master)
+λ ls -l
+total 304
+drwxr-xr-x 1 Mohanad.Alshawi 1049089      0 Jul  3 02:06 bin/
+drwxr-xr-x 1 Mohanad.Alshawi 1049089      0 Jul  3 02:06 cmd/
+drwxr-xr-x 1 Mohanad.Alshawi 1049089      0 Jul  3 02:05 dev/
+drwxr-xr-x 1 Mohanad.Alshawi 1049089      0 Jul  3 02:07 etc/
+-rwxr-xr-x 1 Mohanad.Alshawi 1049089 137224 Jun  3 03:04 git-bash.exe*
+-rwxr-xr-x 1 Mohanad.Alshawi 1049089 136696 Jun  3 03:04 git-cmd.exe*
+-rw-r--r-- 1 Mohanad.Alshawi 1049089  18765 Jun  3 03:15 LICENSE.txt
+drwxr-xr-x 1 Mohanad.Alshawi 1049089      0 Jul  3 02:05 mingw64/
+-rw-r--r-- 1 Mohanad.Alshawi 1049089   3738 Jun  3 03:15 README.portable
+drwxr-xr-x 1 Mohanad.Alshawi 1049089      0 Jun  3 03:15 tmp/
+drwxr-xr-x 1 Mohanad.Alshawi 1049089      0 Jul  3 02:06 usr/
+
+C:\Users\mohanad.alshawi\Downloads\PortableGit (master)
+λ cd .git\
+
+C:\Users\mohanad.alshawi\Downloads\PortableGit\.git (master)
+λ ls -l
+total 7
+-rw-r--r-- 1 Mohanad.Alshawi 1049089 130 Jul  3 02:20 config
+-rw-r--r-- 1 Mohanad.Alshawi 1049089  73 Jul  3 02:20 description
+-rw-r--r-- 1 Mohanad.Alshawi 1049089  23 Jul  3 02:20 HEAD
+drwxr-xr-x 1 Mohanad.Alshawi 1049089   0 Jul  3 02:20 hooks/
+drwxr-xr-x 1 Mohanad.Alshawi 1049089   0 Jul  3 02:20 info/
+drwxr-xr-x 1 Mohanad.Alshawi 1049089   0 Jul  3 02:20 objects/
+drwxr-xr-x 1 Mohanad.Alshawi 1049089   0 Jul  3 02:20 refs/
+
+C:\Users\mohanad.alshawi\Downloads\PortableGit\.git (master)
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ ls
+git_test01.txt  git_test02.txt
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ cd .git\
+
+C:\Users\mohanad.alshawi\Git_Example\.git (master)
+λ ls
+config  description  HEAD  hooks/  info/  objects/  refs/
+
+C:\Users\mohanad.alshawi\Git_Example\.git (master)
+λ cd..
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git add git_test01.txt
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git add git_test02.txt
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git add Python.py
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git commit -m "initial commit"
+[master (root-commit) 2c9e27d] initial commit
+ 3 files changed, 2 insertions(+)
+ create mode 100644 Python.py
+ create mode 100644 git_test01.txt
+ create mode 100644 git_test02.txt
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+
+
+
+
+=============================
+Staging and Committing Files
+=============================
+
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+nothing to commit, working tree clean
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Python.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git add Python.py
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Python.py
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git commit -m "python commit"
+[master e4a7c2b] python commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+nothing to commit, working tree clean
+
+
+
+
+===========================
+Viewing Repository History
+============================
+
+
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git log
+commit e4a7c2b131bc19cf2901499bbd8731420709bb18 (HEAD -> master)
+Author: MHND <alshawimhnd@gmail.com>
+Date:   Wed Jul 3 13:21:37 2024 -0500
+
+    python commit
+
+commit 2c9e27da30ebda5ab5b8ea6de9e30bce8ba96442
+Author: MHND <alshawimhnd@gmail.com>
+Date:   Wed Jul 3 12:49:17 2024 -0500
+
+    initial commit
+
+C:\Users\mohanad.alshawi\Git_Example (master
+
+
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git log --oneline
+e4a7c2b (HEAD -> master) python commit
+2c9e27d initial commit
+
+
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git log -n 1
+commit e4a7c2b131bc19cf2901499bbd8731420709bb18 (HEAD -> master)
+Author: MHND <alshawimhnd@gmail.com>
+Date:   Wed Jul 3 13:21:37 2024 -0500
+
+    python commit
+
+
+
+
+
+
+
+
+================================
+Comparing Changes with Git Diff
+================================
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Python.py
+        modified:   git_test01.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git diff
+diff --git a/Python.py b/Python.py
+index d83ed29..754eb78 100644
+--- a/Python.py
++++ b/Python.py
+@@ -1,2 +1,6 @@
+ print("I am a Network Engineer")
+ print("Network Engineering")
++print("Network Engineering")
++print("Network Engineering")
++print("Network Engineering")
++print("Network Engineering")
+diff --git a/git_test01.txt b/git_test01.txt
+index e69de29..ef9cde6 100644
+--- a/git_test01.txt
++++ b/git_test01.txt
+@@ -0,0 +1 @@
++this is a note for the architect
+\ No newline at end of file
+
+
+
+
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git log --oneline
+2c77081 (HEAD -> master) commit02
+e4a7c2b python commit
+2c9e27d initial commit
+
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git diff e4a7c2b 2c77081
+diff --git a/Python.py b/Python.py
+index d83ed29..754eb78 100644
+--- a/Python.py
++++ b/Python.py
+@@ -1,2 +1,6 @@
+ print("I am a Network Engineer")
+ print("Network Engineering")
++print("Network Engineering")
++print("Network Engineering")
++print("Network Engineering")
++print("Network Engineering")
+diff --git a/git_test01.txt b/git_test01.txt
+index e69de29..ef9cde6 100644
+--- a/git_test01.txt
++++ b/git_test01.txt
+@@ -0,0 +1 @@
++this is a note for the architect
+\ No newline at end of file
+
+
+
+
+
+
+===============================
+Checking Out Previous Commits
+===============================
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git log --oneline
+2c77081 (HEAD -> master) commit02
+e4a7c2b python commit
+2c9e27d initial commit
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git checkout e4a7c2b
+Note: switching to 'e4a7c2b'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at e4a7c2b python commit
+
+C:\Users\mohanad.alshawi\Git_Example (HEAD detached at e4a7c2b)
+λ
+C:\Users\mohanad.alshawi\Git_Example (HEAD detached at e4a7c2b)
+λ
+C:\Users\mohanad.alshawi\Git_Example (HEAD detached at e4a7c2b)
+λ git status
+HEAD detached at e4a7c2b
+nothing to commit, working tree clean
+
+C:\Users\mohanad.alshawi\Git_Example (HEAD detached at e4a7c2b)
+λ git log --oneline
+e4a7c2b (HEAD) python commit
+2c9e27d initial commit
+
+
+
+
+=====================================
+Git Reset and Revert to Undo Changes
+======================================
+
+
+
+git commit --amend -m "xxxxxxxxxxxxx"
+
+
+
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git log --oneline
+eb20ba9 (HEAD -> master) deleting unwanted files
+2c77081 commit02
+e4a7c2b python commit
+2c9e27d initial commit
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git reset e4a7c2b
+
+
+
+
+ git revert HEAD
+
+
+
+=================================
+ Untracking and Unstaging Files
+================================
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git add *
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+        new file:   test.txt
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git restore --staged test.txt
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        test.txt
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   .gitignore
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git add *
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   .gitignore
+
+
+
+
+
+
+λ git rm test.txt --cached
+
+
+
+============================
+Using Git for Collaboration
+============================
+
+
+
+======================================
+Initializing a Repository with Clone
+======================================
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git clone https://github.com/CiscoDevNet/netprog_basics.git
+Cloning into 'netprog_basics'...
+remote: Enumerating objects: 1467, done.
+remote: Counting objects: 100% (171/171), done.
+remote: Compressing objects: 100% (75/75), done.
+remote: Total 1467 (delta 114), reused 104 (delta 96), pack-reused 1296Receiving objects:  95% (1394/1467)
+Receiving objects: 100% (1467/1467), 479.47 KiB | 8.41 MiB/s, done.
+Resolving deltas: 100% (833/833), done.
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ ls
+netprog_basics/  Python.py  test.txt
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ cd netprog_basics\
+
+C:\Users\mohanad.alshawi\Git_Example\netprog_basics (master -> origin)
+λ ls
+application_hosting/  course_info.yaml  LICENSE     network_controllers/  postman_config/            README.md
+course_info.json      intro/            netdevops/  network_device_apis/  programming_fundamentals/  readme_resources/
+
+C:\Users\mohanad.alshawi\Git_Example\netprog_basics (master -> origin)
+λ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\mohanad.alshawi\Git_Example\netprog_basics (master -> origin)
+λ cd..
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        netprog_basics/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git add *
+warning: adding embedded git repository: netprog_basics
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> netprog_basics
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached netprog_basics
+hint:
+hint: See "git help submodule" for more information.
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   netprog_basics
+
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git commit -m "Cisco-DevNet"
+[master c24fda0] Cisco-DevNet
+ 1 file changed, 1 insertion(+)
+ create mode 160000 netprog_basics
+
+C:\Users\mohanad.alshawi\Git_Example (master)
+λ git status
+On branch master
+nothing to commit, working tree clean
+
+
+
+
+=======================================
+Synchronizing with Remote Repositories
+=======================================
+
+
+
+C:\Users\mohanad.alshawi
+λ cd git_Example2
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ ls
+Python.py
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Python.py
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git add *
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Python.py
+
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git commit -m "git-Hub"
+[main (root-commit) 4d31aa5] git-Hub
+ 1 file changed, 6 insertions(+)
+ create mode 100644 Python.py
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git log --oneline
+4d31aa5 (HEAD -> main) git-Hub
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git remote -v
+origin  https://github.com/MHND41/git_Example2.git (fetch)
+origin  https://github.com/MHND41/git_Example2.git (push)
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git push origin
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 254 bytes | 254.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/MHND41/git_Example2.git
+ * [new branch]      main -> main
+
+
+
+========================
+ Working With Branches
+ =======================
+
+
+ 
