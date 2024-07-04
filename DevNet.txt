@@ -735,3 +735,67 @@ To https://github.com/MHND41/git_Example2.git
 
 
  
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git branch FeatureA
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git checkout FeatureA
+Switched to branch 'FeatureA'
+M       DevNet.txt
+
+C:\Users\mohanad.alshawi\git_Example2 (FeatureA)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (FeatureA)
+λ git log --oneline
+5e66505 (HEAD -> FeatureA, origin/main, main) DevNet Notes
+4d31aa5 git-Hub
+
+C:\Users\mohanad.alshawi\git_Example2 (FeatureA)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (FeatureA)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (FeatureA)
+λ git log --oneline
+5e66505 (HEAD -> FeatureA, origin/main, main) DevNet Notes
+4d31aa5 git-Hub
+
+C:\Users\mohanad.alshawi\git_Example2 (FeatureA)
+λ git status
+On branch FeatureA
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   DevNet.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\mohanad.alshawi\git_Example2 (FeatureA)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (FeatureA)
+λ git checkout main
+Switched to branch 'main'
+M       DevNet.txt
+Your branch is up to date with 'origin/main'.
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   DevNet.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
+λ git log --oneline
+5e66505 (HEAD -> main, origin/main, FeatureA) DevNet Notes
+4d31aa5 git-Hub
