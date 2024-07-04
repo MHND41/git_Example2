@@ -799,3 +799,29 @@ C:\Users\mohanad.alshawi\git_Example2 (main -> origin)
 λ git log --oneline
 5e66505 (HEAD -> main, origin/main, FeatureA) DevNet Notes
 4d31aa5 git-Hub
+
+
+
+=========================================
+Merging Branches and Resolving Conflicts
+==========================================
+
+
+
+git merge XXXXXXX
+
+
+==================================
+Parsing Data Formats with Python
+==================================
+
+=========================
+Parsing XML with Python
+=========================
+
+
+
+
+
+
+
