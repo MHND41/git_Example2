@@ -1,12 +1,11 @@
-    with IOSXEDriver(**device) as conn:
-         ^^^^^^^^^^^^^^^^^^^^^
-TypeError: scrapli.driver.core.cisco_iosxe.sync_driver.IOSXEDriver() argument after ** must be a mapping, not str
+import ipaddress
 
 
+address = input("IP address : ")
 
+network = ipaddress.ip_network(address)
 
+for host in network.hosts():
+    print(host)
+print(network.netmask)
 
-
-
-    raise ScrapliUnsupportedPlatform("system transport is not supported on windows devices")
-scrapli.exceptions.ScrapliUnsupportedPlatform: system transport is not supported on windows devices
