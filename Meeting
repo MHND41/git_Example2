@@ -11,5 +11,6 @@ MY_DEVICES =  {
 
 
 with IOSXEDriver(**MY_DEVICES) as conn:
-    response = conn.send_configs_from_file("CONFIG.txt")
-print(response.result)
+        response = conn.send_command("show version")
+        structured_result = json.dumps(response.textfsm_parse_output(), indent=2)
+print(structured_result)
