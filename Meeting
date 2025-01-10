@@ -11,7 +11,5 @@ MY_DEVICES =  {
 
 
 with IOSXEDriver(**MY_DEVICES) as conn:
-        response = conn.send_command("show version")
-        structured_result = response.textfsm_parse_output()
-        for info in structured_result:
-            print(f"Device {info['hostname']} has a serial number of {info['serial']} with Version of {info['version']}")
+    response = conn.send_configs_from_file("CONFIG.txt")
+print(response.result)
