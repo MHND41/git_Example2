@@ -1,11 +1,17 @@
-import ipaddress
+from scrapli.driver.core import IOSXEDriver
+import json
+
+MY_DEVICES =  {
+    "host": "devnetsandboxiosxe.cisco.com",
+    "auth_username": "admin",
+    "auth_password": "C1sco12345",
+    "auth_strict_key": False,
+    "transport": "paramiko",
+}
 
 
-address = input("IP address : ")
-
-network = ipaddress.ip_network(address)
-
-for host in network.hosts():
-    print(host)
-print(network.netmask)
-
+with IOSXEDriver(**MY_DEVICES) as conn:
+        response = conn.send_command("show version")
+        structured_result = response.textfsm_parse_output()
+        for info in structured_result:
+            print(f"Device {info['hostname']} has a serial number of {info['serial']} with Version of {info['version']}")
