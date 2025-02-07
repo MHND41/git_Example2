@@ -1,16 +1,1 @@
-from scrapli.driver.core import IOSXEDriver
-import json
-
-MY_DEVICES =  {
-    "host": "devnetsandboxiosxe.cisco.com",
-    "auth_username": "admin",
-    "auth_password": "C1sco12345",
-    "auth_strict_key": False,
-    "transport": "paramiko",
-}
-
-
-with IOSXEDriver(**MY_DEVICES) as conn:
-        response = conn.send_command("show version")
-        structured_result = json.dumps(response.textfsm_parse_output(), indent=2)
-print(structured_result)
+https://teams.microsoft.com/l/meetup-join/19%3ameeting_ZTU3NDU5MWEtNGQyNi00NzllLWEzNDUtMGNhZmQxYmY5ZDQ5%40thread.v2/0?context=%7b%22Tid%22%3a%22945c199a-83a2-4e80-9f8c-5a91be5752dd%22%2c%22Oid%22%3a%22cc7b8b46-7ac9-44d3-a3ef-acf53a6dd2e0%22%7d
